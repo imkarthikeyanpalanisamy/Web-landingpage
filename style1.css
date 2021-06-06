@@ -7,8 +7,8 @@ padding: 0;
     margin:auto;
 }
 header{
-    background:  url("file:///D:/Website%20images/background%20image.png");
-    height:550px;
+    background: url("file:///D:/Website%20images/background%20image.png" );
+    height:625px;
     background-size: cover;
     background-position:center center;
     position: relative;
@@ -48,14 +48,14 @@ footer{
     position:absolute;
     width:600px;
     height:300px;
-    margin:20% 30%;
+    margin:5% 25%;
     text-align: center;
 }
 .welcome-text a {
-    color:rgb(6, 45, 47);
+    color:rgb(29, 132, 138);
     text-decoration: none;
     size:50px;
-    border:2px solid rgb(6, 45, 47);
+    border:2px solid rgb(29, 132, 138);
     text-transform: uppercase;
     padding: 5px 15px;
     font-size:20px;
@@ -66,5 +66,12 @@ footer{
     text-align: center;
     text-transform: uppercase;
     font-size: 25px;
+}
+.welcome-text p{
+    text-align: justify;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:bolder;
+    color:black ;
 }
 
